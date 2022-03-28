@@ -1,0 +1,12 @@
+Como Funciona?
+Um algoritmo genético, este por sua vez faz analogia à seleção natural por meio da reprodução sexuada em que há combinação genética, ou seja, os algoritmos genéticos (AGs) tem como finalidade realizar n-cruzamentos dos estados iniciais e ao final submeter os estados resultantes à uma mutação aleatória de baixa probabilidade. Podemos destacar 5 etapas principais deste algoritmo
+
+Etapa 1: Os AGs possuem um conjunto de estados iniciais gerados aleatoriamentes (este por sua vez denominado população inicial), cada estado é representado por uma cadeia sobre um alfabeto finito (conjunto de elementos).
+Etapa 2: Cada estado é avaliado por uma função de adaptação, esta por sua vez tem como finalidade sinalizar os melhores estados iniciais para uma combinação cruzada.
+Etapa 3: Após serem sinalizados pela função de adaptação estes estados sofrem uma seleção de 2 estados escolhidos aleatoriamente para realização da combinação entre estes.
+Etapa 4: Para o conjunto de estados avaliados será realizada uma combinação entre os estados selecionados pela etapa anterior criado assim uma nova geração a partir da população inicial. Esta geração estará sucinta para a etapa de mutação. Cada combinação cruzada entre dois pais produz apenas um descendente.
+Etapa 5: Após realizada a combinação cruzada dos elementos que tem como resultado descendentes da população original, estes descendentes estão sujeitos à um mutação independente, aleatória e de baixa probabilidade.
+
+Como utilizar?
+
+Encontrar a melhor adaptação de um indivíduo de uma população de acordo com a função de adaptação. Podendo ser utilizado por laboratórios para prever a evolução de um vírus.
